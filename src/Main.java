@@ -11,6 +11,7 @@ public class Main {
 
         String description = "Description: " + apartment.getDescription();
         String cost = "Total Cost: $" + apartment.getCost();
+        // gg
 
         System.out.println(description);
         System.out.println(cost);
