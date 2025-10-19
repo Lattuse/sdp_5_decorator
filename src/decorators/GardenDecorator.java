@@ -9,12 +9,16 @@ public class GardenDecorator extends PropertyDecorator {
 
     @Override
     public String getDescription() {
-        return super.getDescription() + ", with Garden";
+        String newDescription;
+        newDescription = super.getDescription() + ", with Garden";
+        return newDescription;
     }
 
     @Override
     public double getCost() {
-        return super.getCost() + 15000;
+        double newCost;
+        newCost = super.getCost() + 15000;
+        return newCost;
     }
 }
 

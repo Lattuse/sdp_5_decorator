@@ -9,12 +9,16 @@ public class FurnishedDecorator extends PropertyDecorator {
 
     @Override
     public String getDescription() {
-        return super.getDescription() + ", Furnished";
+        String newDescription;
+        newDescription = super.getDescription() + ", Furnished";
+        return newDescription;
     }
 
     @Override
     public double getCost() {
-        return super.getCost() + 10000;
+        double newCost;
+        newCost = super.getCost() + 10000;
+        return newCost;
     }
 }
 

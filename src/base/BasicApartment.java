@@ -3,12 +3,16 @@ package base;
 public class BasicApartment implements Property {
     @Override
     public String getDescription() {
-        return "Basic Apartment";
+        String description;
+        description = "Basic Apartment";
+        return description;
     }
 
     @Override
     public double getCost() {
-        return 50000;
+        double cost;
+        cost = 50000;
+        return cost;
     }
 }
 
