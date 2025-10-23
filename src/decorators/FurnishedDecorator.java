@@ -1,7 +1,7 @@
 package decorators;
 
 import base.Property;
-import prop_abstract.PropertyDecorator;
+import abstractprop.PropertyDecorator;
 
 public class FurnishedDecorator extends PropertyDecorator {
     public FurnishedDecorator(Property property) {

@@ -1,4 +1,4 @@
-package prop_abstract;
+package abstractprop;
 
 import base.Property;
 
