@@ -1,4 +1,4 @@
-package decorators;
+package prop_abstract;
 
 import base.Property;
 

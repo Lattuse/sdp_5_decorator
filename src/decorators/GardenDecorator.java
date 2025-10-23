@@ -1,6 +1,7 @@
 package decorators;
 
 import base.Property;
+import prop_abstract.PropertyDecorator;
 
 public class GardenDecorator extends PropertyDecorator {
     public GardenDecorator(Property property) {
